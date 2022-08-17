@@ -1,0 +1,72 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: #121818;
+    height: 100vh;
+    padding-top: 1px;
+}
+.title{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.gamer{
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 10px;    
+    margin-bottom: 10px;
+}
+.container{
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 390px;
+    
+}
+.box{
+    border: 3px solid white;
+    min-width: 130px;
+    min-height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.controls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+#reset{
+    width: 100px;
+    background-color: #FF8C00;
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#reset:hover{
+    background-color: #FF0000;
+}
+.playerX {
+    color: #32CD32
+}
+.playerO {
+    color: #FF0000
+}
+.hide {
+    display: none;
+}
