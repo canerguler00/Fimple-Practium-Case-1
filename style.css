@@ -6,14 +6,14 @@
 }
 .main{
     background-color: #121818;
-    height: 110vh;
+    height: 100vh;
     padding-top: 1px;
 }
 .title{
     color: white;
     text-align: center;
     font-size: 35px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .gamer{
     color: white;
@@ -23,7 +23,7 @@
     margin-bottom: 10px;
 }
 .container{
-    margin: 50px auto;
+    margin: 30px auto;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 33% 33% 33%;
